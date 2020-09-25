@@ -163,13 +163,5 @@ namespace Calabonga.AspNetCore.Controllers
         /// </summary>
         /// <param name="result"></param>
         void SetOperationResult(TViewModel result);
-
-
-
-        /// <summary>
-        /// Returns OperationResult from context of the WritableController 
-        /// </summary>
-        /// <returns></returns>
-        OperationResult<TViewModel> GetOperationResult();
     }
 }
