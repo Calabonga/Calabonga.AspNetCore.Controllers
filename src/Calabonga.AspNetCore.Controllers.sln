@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calabonga.AspNetCore.Controllers", "Calabonga.AspNetCore.Controllers\Calabonga.AspNetCore.Controllers.csproj", "{A1216A6F-FEFF-4F74-982E-2891705867C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calabonga.AspNetCore.Controllers.Demo", "Calabonga.AspNetCore.Controllers.Demo\Calabonga.AspNetCore.Controllers.Demo.csproj", "{B2C7E08B-610F-42EE-BD18-403C7A6FD579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1216A6F-FEFF-4F74-982E-2891705867C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1216A6F-FEFF-4F74-982E-2891705867C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1216A6F-FEFF-4F74-982E-2891705867C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1216A6F-FEFF-4F74-982E-2891705867C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C7E08B-610F-42EE-BD18-403C7A6FD579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C7E08B-610F-42EE-BD18-403C7A6FD579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C7E08B-610F-42EE-BD18-403C7A6FD579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C7E08B-610F-42EE-BD18-403C7A6FD579}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A99EC77B-01DB-42BF-ADAE-E006C367FF91}
+	EndGlobalSection
+EndGlobal

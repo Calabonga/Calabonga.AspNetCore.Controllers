@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Calabonga</Authors>
     <Company>Calabonga SOFT</Company>
     <Description>Unit of Work implementation for EntityFramework Core. Package based over the mediatr pattern (mediatr package used). For more information please see Calabonga.UnitOfWork package. Mediator pattern impementation.</Description>
@@ -23,7 +22,7 @@
     <PackageReference Include="Calabonga.EntityFrameworkCore.Entities.Base" Version="2.1.0" />
     <PackageReference Include="Calabonga.Microservices.Core" Version="2.1.2" />
     <PackageReference Include="Calabonga.PredicatesBuilder" Version="1.0.3" />
-    <PackageReference Include="Calabonga.UnitOfWork" Version="1.0.7" />
+    <PackageReference Include="Calabonga.UnitOfWork" Version="1.0.6" />
     <PackageReference Include="MediatR" Version="8.1.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
     <PackageReference Include="OperationResultCore" Version="2.1.3" />
