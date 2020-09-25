@@ -16,9 +16,9 @@ jobs:
       with:
         dotnet-version: 3.1.301
     - name: Install dependencies
-      run: dotnet restore src/Calabonga.UnitOfWork.sln
+      run: dotnet restore src/Calabonga.AspNetCore.Controllers.sln
     - name: Build
-      run: dotnet build src/Calabonga.UnitOfWork.sln --configuration Release --no-restore 
+      run: dotnet build src/Calabonga.AspNetCore.Controllers.sln --configuration Release --no-restore 
     - name: Publish Calabonga.UnitOfWork
       uses: brandedoutcast/publish-nuget@v2.5.2
       with:
