@@ -16,6 +16,7 @@
     <FileVersion>1.1.1.0</FileVersion>
     <Copyright>Calabonga</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
