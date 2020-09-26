@@ -8,7 +8,7 @@
     <PackageProjectUrl>https://www.calabonga.net</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>logo.png</PackageIcon>
-    <PackageIconUrl>http://www.calabonga.net/images/logo.png</PackageIconUrl>
+    <PackageIconUrl></PackageIconUrl>
     <PackageTags>Calabonga EntityFrameworkCore UnitOfWork Repository Extenstion Helper pagination pagedlist mediatr crud mapper</PackageTags>
     <PackageReleaseNotes>Calabonga.AspNetCore.Controllers moved to it own github repository</PackageReleaseNotes>
     <Version>1.1.1-beta3</Version>
@@ -31,10 +31,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\Calabonga.UnitOfWork\logo.png">
+    <None Include="logo.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
+
 
 </Project>
