@@ -16,6 +16,8 @@
     <Copyright>Calabonga</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
+    <PackageIconUrl>https://www.calabonga.net/images/logo.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/Calabonga/Calabonga.AspNetCore.Controllers</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,9 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="logo.png">
-      <Pack>True</Pack>
-    </None>
+    <None Include="logo.png" Pack="true" PackagePath="" />
   </ItemGroup>
 
 
