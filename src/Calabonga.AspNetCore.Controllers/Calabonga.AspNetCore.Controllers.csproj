@@ -9,10 +9,10 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>logo.png</PackageIcon>
     <PackageTags>Calabonga EntityFrameworkCore UnitOfWork Repository Extenstion Helper pagination pagedlist mediatr crud mapper</PackageTags>
-    <PackageReleaseNotes>Calabonga.AspNetCore.Controllers moved to it own github repository</PackageReleaseNotes>
-    <Version>1.1.1</Version>
-    <AssemblyVersion>1.1.1.0</AssemblyVersion>
-    <FileVersion>1.1.1.0</FileVersion>
+    <PackageReleaseNotes>TypeHelper moved to Calabonga.Microservice.Core library</PackageReleaseNotes>
+    <Version>1.1.2</Version>
+    <AssemblyVersion>1.1.2.0</AssemblyVersion>
+    <FileVersion>1.1.2.0</FileVersion>
     <Copyright>Calabonga</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
