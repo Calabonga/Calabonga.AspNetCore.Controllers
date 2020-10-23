@@ -379,7 +379,6 @@ namespace Calabonga.AspNetCore.Controllers
         /// <summary>
         /// Returns OperationResult
         /// </summary>
-        /// <typeparam name="T"></typeparam>
         /// <returns></returns>
         public OperationResult<TViewModel> GetOperationResult()
         {
