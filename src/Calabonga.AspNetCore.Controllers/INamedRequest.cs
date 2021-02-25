@@ -5,6 +5,6 @@
     /// </summary>
     public interface INamedRequest
     {
-        string QueryName { get; }
+        string RequestName { get; }
     }
 }

@@ -18,6 +18,6 @@ namespace Calabonga.AspNetCore.Controllers.Base
         /// <summary>
         /// Current query public (friendly) name
         /// </summary>
-        public virtual string QueryName => GetType().Name;
+        public virtual string RequestName => GetType().Name;
     }
 }

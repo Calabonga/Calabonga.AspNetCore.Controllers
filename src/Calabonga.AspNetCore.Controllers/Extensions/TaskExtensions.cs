@@ -11,7 +11,7 @@ namespace Calabonga.AspNetCore.Controllers.Extensions
         /// <param name="source"></param>
         /// <param name="continueOnCapturedContext"></param>
         /// <param name="onException"></param>
-        public static async void SafeFireAndForget(this Task source, bool continueOnCapturedContext=true, Action<Exception> onException = null)
+        public static async void SafeFireAndForget(this Task source, bool continueOnCapturedContext = true, Action<Exception> onException = null)
         {
             try
             {

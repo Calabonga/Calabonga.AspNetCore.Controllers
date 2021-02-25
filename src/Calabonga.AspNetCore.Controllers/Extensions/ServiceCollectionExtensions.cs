@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.Reflection;
-using Calabonga.AspNetCore.Controllers.Behaviors;
 using Calabonga.Microservices.Core.Exceptions;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,8 +17,7 @@ namespace Calabonga.AspNetCore.Controllers.Extensions
         /// </summary>
         /// <param name="services"></param>
         /// <param name="assembly"></param>
-        /// <param name="registerLoggerBehavior"></param>
-        public static void AddCommandAndQueries(this IServiceCollection services, Assembly assembly, bool registerLoggerBehavior = false)
+        public static void AddCommandAndQueries(this IServiceCollection services, Assembly assembly)
         {
             var assemblies = AppDomain.CurrentDomain.GetAssemblies()
                 .Where(x => x.FullName != null && (x.FullName.StartsWith("Calabonga.AspNetCore.Controllers") ||
@@ -28,10 +26,6 @@ namespace Calabonga.AspNetCore.Controllers.Extensions
 
             var all = assemblies.Append(assembly).ToList();
             services.AddMediatR(all.ToArray());
-            if (registerLoggerBehavior)
-            {
-                services.AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
-            }
             var types = all.SelectMany(x => x.DefinedTypes).Where(t => t.IsClass && !t.IsAbstract).ToList();
             foreach (var type in types)
             {
