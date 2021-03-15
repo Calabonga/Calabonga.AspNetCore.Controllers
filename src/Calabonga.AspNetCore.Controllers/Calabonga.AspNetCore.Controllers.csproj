@@ -12,7 +12,7 @@
     <PackageReleaseNotes>* Automapper dependency removed
 * Redundunt Queries and Handlers were removed
 * NET 5.0 migrated</PackageReleaseNotes>
-    <Version>3.0.0-beta1</Version>
+    <Version>3.0.0</Version>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <FileVersion>3.0.0.0</FileVersion>
     <Copyright>Calabonga</Copyright>
