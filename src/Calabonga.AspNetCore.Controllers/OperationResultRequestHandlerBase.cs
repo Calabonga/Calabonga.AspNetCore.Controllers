@@ -1,8 +1,7 @@
 ﻿using Calabonga.OperationResults;
-
 using MediatR;
 
-namespace Calabonga.AspNetCore.Controllers.Base
+namespace Calabonga.AspNetCore.Controllers
 {
     /// <summary>
     /// Mediator base request with OperationResult

@@ -9,12 +9,10 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>logo.png</PackageIcon>
     <PackageTags>Calabonga EntityFrameworkCore UnitOfWork Repository Extenstion Helper pagination pagedlist mediatr crud mapper</PackageTags>
-    <PackageReleaseNotes>* Automapper dependency removed
-* Redundunt Queries and Handlers were removed
-* NET 5.0 migrated</PackageReleaseNotes>
-    <Version>3.0.0</Version>
-    <AssemblyVersion>3.0.0.0</AssemblyVersion>
-    <FileVersion>3.0.0.0</FileVersion>
+    <PackageReleaseNotes>Record type queries added for RequestBase</PackageReleaseNotes>
+    <Version>3.0.1</Version>
+    <AssemblyVersion>3.0.1.0</AssemblyVersion>
+    <FileVersion>3.0.1.0</FileVersion>
     <Copyright>Calabonga</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
@@ -23,7 +21,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Calabonga.Microservices.Core" Version="3.0.0" />
+    <PackageReference Include="Calabonga.Microservices.Core" Version="3.0.1" />
     <PackageReference Include="MediatR" Version="9.0.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="OperationResultCore" Version="3.0.0" />

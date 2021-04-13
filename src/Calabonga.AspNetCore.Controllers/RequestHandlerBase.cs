@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using MediatR;
 
-namespace Calabonga.AspNetCore.Controllers.Base
+namespace Calabonga.AspNetCore.Controllers
 {
     /// <summary>
     /// Default class for request handler
@@ -12,7 +12,6 @@ namespace Calabonga.AspNetCore.Controllers.Base
     public abstract class RequestHandlerBase<TRequest, TResponse> : IRequestHandler<TRequest, TResponse>
         where TRequest : IRequest<TResponse>
     {
-
         /// <summary>Handles a request</summary>
         /// <param name="request">The request</param>
         /// <param name="cancellationToken">Cancellation token</param>
