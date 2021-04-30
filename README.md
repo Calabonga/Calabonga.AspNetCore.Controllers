@@ -1,2 +1,2 @@
 # Calabonga.AspNetCore.Controllers
-Mediator requests and handler for CRUD operation with UnitOfWork for [Nimble Framework](https://github.com/Calabonga/Microservice-Template)
+Mediator requests and handler with OperationResult wrapper for [Nimble Framework](https://github.com/Calabonga/Microservice-Template)
